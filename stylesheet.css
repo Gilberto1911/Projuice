@@ -1,0 +1,85 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "avenir next";
+}
+li {
+  list-style: none;
+}
+.header {
+  background-color: #006400;
+  color: #fff;
+  height: 90px;
+}
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+.header-list {
+  float: left;
+}
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+.main {
+  padding: 100px 80px;
+  background-image: url(foto1.jpg);
+  background-size: cover;
+}
+.section-title {
+  color: #7fff00;
+  font-size: 40px;
+}
+.copy-container h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #ffff00;
+  padding-top: 120px
+}
+.copy-container h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+}
+.contact-form {
+  padding-top: 100px;
+}
+.contact-form p {
+  color: #fff;
+  text-align: inherit;
+}
+input {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+.contact-submit {
+  background-color: #7cfc00;
+  color: #889eab
+}
+.footer {
+background-color: #006400;
+color: #fff;
+height: 60px;
+padding: 40px;
+}
+.footer-logo {
+  float: left;
+  font-size: 36px;
+}
+.footer-list {
+  float: right;
+}
+.footer-list li {
+  padding-bottom: 10px;
+}
